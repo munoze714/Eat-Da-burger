@@ -1,4 +1,5 @@
 <ol class="burger">
+    <h2>BURGERS</h2>
     {{#each burgers}}
     {{#unless devoured}}
     <li>{{burger_name}}</li><button class="devouredBurger" name={{id}}>Devoured</button>
@@ -9,6 +10,7 @@
 
 
 <ol class="devoured">
+    <h2>DEVOURED</h2>
     {{#each burgers}}
     {{#if devoured}}
     <li>{{burger_name}}</li>
