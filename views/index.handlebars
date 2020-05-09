@@ -1,30 +1,25 @@
-<h1>Burger!</h1>
-
-
-<ul>
+<ol class="burger">
     {{#each burgers}}
     {{#unless devoured}}
     <li>{{burger_name}}</li><button class="devouredBurger" name={{id}}>Devoured</button>
     {{/unless}}
     {{/each}}
-</ul>
+</ol>
 
-<h1>Devoured!</h1>
 
-<ul>
+
+<ol class="devoured">
     {{#each burgers}}
     {{#if devoured}}
     <li>{{burger_name}}</li>
     {{/if}}
     {{/each}}
-</ul>
+</ol>
 
-<h2>Make a Burger</h2>
 <form class="create-form">
 
     <div class="form-group">
-        <label for="ca">Burger Name:</label>
-        <input type="text" id="burgerName" name="name">
+        <input type="text" id="burgerName" placeholder="Enter Your Burger" name="name">
     </div>
     <button type="submit" id="clickBurger">Make</button>
 </form>
