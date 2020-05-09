@@ -39,7 +39,7 @@ var orm = {
             cb(result);
         });
     },
-    updateOne: function (table, objColVals, condition, cb) {
+    updateOne: function (table, condition, cb) {
         var queryString = "UPDATE " + table;
 
         queryString += " SET ";
@@ -56,8 +56,6 @@ var orm = {
             cb(result);
         });
     },
-
-
 }
 
 module.exports = orm;
