@@ -14,4 +14,18 @@ router.get("/", function (req, res) {
     });
 });
 
+router.post("/api/burgers", function (req, res) {
+    console.log("this is the route")
+    burger.insertOne([
+        "burger_name", "devoured"
+    ], [
+        req.body.burger_name, req.body.false
+    ], function (result) {
+        // Send back the ID of the new quote
+        console.log("this is the result")
+        res.json({ id: result.insertId });
+
+    });
+});
+
 module.exports = router;
