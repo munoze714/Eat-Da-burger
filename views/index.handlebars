@@ -28,3 +28,20 @@
     </div>
     <button type="submit" id="clickBurger">Make</button>
 </form>
+
+<script>
+    $("#clickBurger").on("click", function () {
+        console.log("we got clicked");
+        $.ajax({
+            url: "/api/burgers",
+            data: {
+                burger_name: $("#burgerName").val(),
+                devoured: false
+            },
+            type: "post"
+        }).then(function (answer) {
+            console.log(answer)
+        })
+    })
+
+</script>
