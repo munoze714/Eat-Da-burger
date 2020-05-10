@@ -2,12 +2,10 @@
     <h2>BURGERS</h2>
     {{#each burgers}}
     {{#unless devoured}}
-    <li>{{burger_name}}</li><button class="devouredBurger" name={{id}}>Devoured</button>
+    <li>{{burger_name}}</li><button class="devouredBurger" name={{id}}>Devour</button>
     {{/unless}}
     {{/each}}
 </ol>
-
-
 
 <ol class="devoured">
     <h2>DEVOURED</h2>
@@ -25,31 +23,4 @@
     </div>
     <button type="submit" id="clickBurger">Make</button>
 </form>
-
-<script>
-    $("#clickBurger").on("click", function () {
-        console.log("we got clicked");
-        $.ajax({
-            url: "/api/burgers",
-            data: {
-                burger_name: $("#burgerName").val(),
-                devoured: false
-            },
-            type: "post"
-        }).then(function (answer) {
-            console.log(answer)
-        })
-    })
-
-    $(".devouredBurger").on("click", function () {
-        console.log("we got clicked");
-        $.ajax({
-            url: "/api/burgers/" + $(this).attr("name"),
-            type: "put",
-        }).then(function (answer) {
-            console.log(answer)
-            location.reload()
-        })
-    })
-
-</script>
+<script src="/assets/js/script.js" type="text/javascript"></script>
