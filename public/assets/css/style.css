@@ -27,7 +27,6 @@ li {
  width: 50%;
  text-align: center;
 }
-
 .label {
   font-weight: bold;
 }
@@ -48,7 +47,6 @@ button:hover {
   background-color:rgb(233, 53, 53);
   color: white;
 }
-
 form {
   clear: both;
   margin-bottom: 5px;
