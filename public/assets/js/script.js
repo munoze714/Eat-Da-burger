@@ -1,5 +1,6 @@
-$("#clickBurger").on("click", function () {
-    console.log("we got clicked");
+$("#clickBurger").on("click", function (event) {
+    event.preventDefault()
+    // console.log("we got clicked");
     var burgerInput = $("#burgerName").val();
     if (burgerInput.length < 1) {
         alert('Please Enter a Burger');
@@ -18,7 +19,8 @@ $("#clickBurger").on("click", function () {
 })
 
 $(".devouredBurger").on("click", function () {
-    console.log("we got clicked");
+    event.preventDefault()
+    // console.log("we got clicked");
     $.ajax({
         url: "/api/burgers/" + $(this).attr("name"),
         type: "put",

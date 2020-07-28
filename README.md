@@ -23,7 +23,7 @@ Mysql / Express / Express-handlers
 Make your favortie burger and devour it!
 
 ### Licence:
-Copyright (c) [2020] [Elizabeth Munoz]
+Copyright (c) 2020 Elizabeth Munoz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
