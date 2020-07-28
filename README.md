@@ -1,51 +1,45 @@
 # Project Title:
+
 Eat Tha Burger
 
 ## Description:
+
 In this project, I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern; using Node and MySQL to query and route data in my app, and Handlebars to generate your HTML.
 
-## Deployed URL
-[https://eatthaburger.herokuapp.com/](https://eatthaburger.herokuapp.com/)
-
-![alt text](public/assets/img/burger.png?raw=true "Eat Tha Burger")
 ## Table of Contents
 
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Test](#Test)
+- [Deployed URL](#DeployedURL)
+- [Installation](#Installation)
+- [Technologies Used](#TechnologiesUsed)
+- [License](#License)
+- [Questions](#Questions)
+
+## Deployed URL
+
+[https://eatthaburger.herokuapp.com/](https://eatthaburger.herokuapp.com/)
+
+![appScreenshot](public/assets/img/burger.png?raw=true "Eat Tha Burger")
 
 ### Installation:
-Mysql / Express / Express-handlers
 
-### Usage:
-Make your favortie burger and devour it!
+- git clone
+- npm install
+
+### Technologies Used
+
+- JavaScript
+- HTML
+- JQuery
+- CSS
+- Bootstrap
+- Handlebars
+- Express
+- Mysql
 
 ### Licence:
+
 Copyright (c) 2020 Elizabeth Munoz
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-### Contributing:
-![Node.js](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
-
+MIT
 
 ### Questions:
 
