@@ -4,7 +4,7 @@ Eat Tha Burger
 
 ## Description:
 
-In this project, I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Following the MVC design pattern; using Node and MySQL to query and route data in my app, and Handlebars to generate your HTML.
+Eat Tha Burger lets users create burgers and log when they are devoured. When a user creates a burger the burger's name is stored in a database. The name of the burger is displayed using a call to the database along with an option to devour the burgers. Devoured burgers are displayed to the user.
 
 ## Table of Contents
 
